@@ -1,0 +1,31 @@
+* {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.week {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+  height: 15vh;
+}
+.day {
+  max-width: 5rem;
+  flex-grow: 1;
+  width: 2rem;
+  height: 500px;
+  flex-direction: row;
+  border: 3px solid red;
+  margin-right: 0.5rem;
+  height: 100px;
+}
+.day:hover {
+  border: 4px dashed blue;
+  flex-grow: 2;
+}
+.month {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
