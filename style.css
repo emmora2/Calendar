@@ -1,31 +1,57 @@
 * {
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
+  color:grey;
 }
 
+
+.week:first-child{
+  padding-top:20px;
+}
 .week {
+  padding-left: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 2rem;
-  height: 15vh;
+  height: 10rem;
+  
 }
+
 .day {
-  max-width: 5rem;
+  color:white;
   flex-grow: 1;
-  width: 2rem;
-  height: 500px;
+  width: 140px;
   flex-direction: row;
-  border: 3px solid red;
+  border: 3px solid white;
   margin-right: 0.5rem;
-  height: 100px;
+  height: 9rem;
 }
 .day:hover {
-  border: 4px dashed blue;
+  border: 4px dashed white;
   flex-grow: 2;
+  
+}
+.day:active {
+  border: 4px dashed red;
 }
 .month {
   font-size: 30px;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  color:white;
+  border-bottom:1px solid white;
+}
+
+.container {
+  background-color:grey;
+}
+
+.top-image {
+  background-image: url(css/img/cal-background.jpg);
+  background-position:center;
+}
+
+a {
+  text-decoration: none;
 }
